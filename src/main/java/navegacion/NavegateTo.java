@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Open;
 public class NavegateTo {
 
     public static Performable paginaPrincipal() {
-        return Task.where(  "{0} abre la pagina principal de Claro Pay",
+        return Task.where(  "{0} abre la pagina principal de Automation Practice",
                 Open.browserOn().the(PaginaPrincipal.class)
         );
     }
